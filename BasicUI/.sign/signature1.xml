@@ -4,15 +4,15 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>ORr7d3480YT9Ilj6ddHCMnmRbJerDppgeer4lpoI1rg=</DigestValue>
+<DigestValue>QC7IiA0MMQopS20szdmMV0omOM6AL5kWnydzBeNOy3U=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>XhZrEAED2KP3BmGSj67oOd/KKb2mc3GZr344VUseW/k=</DigestValue>
+<DigestValue>Affg5ItQ1ibAp2uCSdCTnl88kbV62KposBbnPwhEBlI=</DigestValue>
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>0/mhZV4kwFnSzCSp45AhFjWaQnaie61uW8VeXioOLQg=</DigestValue>
+<DigestValue>AgbgEgoxgzguDaXSZ07lcxi25wDwK3owU+k3JGJ2yqU=</DigestValue>
 </Reference>
 <Reference URI="icon.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -20,15 +20,23 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>MVxKvcWmJnjnXo58rNOjy03uMaKXx8vc2c5YnjhpXZ4=</DigestValue>
+<DigestValue>ueiBNwxxxo8/i5aiQnJsoiLHbyZ5Nea8kSVZVGZoTmo=</DigestValue>
 </Reference>
 <Reference URI="js%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>0oc6DiyrAj1HQFcu+27/BHCQKn3zBn9dKls96iQZ564=</DigestValue>
+<DigestValue>UWrGC7DwJAmmGpjgLyyg+K4MJ1XEQ8y1+V0aVrN4pYY=</DigestValue>
 </Reference>
-<Reference URI="logo.png">
+<Reference URI="light.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>vhDu/VD3rHt4qHzQCJeVbCdlCBmdBZz5g04U7kteUuA=</DigestValue>
+<DigestValue>htMgdGQjEC77D6AowYWTwcuGztoV9OndfIKaeh715YM=</DigestValue>
+</Reference>
+<Reference URI="lightoff.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>qp7tpUTPL7MUSaMzqmK+3MhvSW9wFX8rLldEoCNo9T0=</DigestValue>
+</Reference>
+<Reference URI="lighton.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>eguBUdJx64taP75sLsrugoWUn2TZm/tRdD3WAkFked8=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -39,9 +47,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-oMjulZ5p2ENakvoPEQvEPzI42YKos0ZkT8i6FPVDY8Fbjc2tNye0aiOBA2MGXDd6e+dv8d2vcvzo
-+Pw8/jw+6FYo/MFL1sNAL3T2y5l2CnPe8mQAiTwYpM1WmaWlB3fwpqCrMFnOg2dIrxSXYFKpip/l
-Bh1GXwcDW2qR/+tiTlk=
+AoCbp3d1YEjnnMcqak+CgelAp2EEvJnc4LYYoSVpM8KYzoLJPXdbzhB3AaN8eqJOME476dp9Bcal
+yrlMafBElKUEb2cPSgn7YRHbkd+hlTS5G4BC57yz8I94maBI6+QGTexeReX+lKMbOzuk1ZZFlLs/
+idDF3M1y+n+RIUiajDA=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

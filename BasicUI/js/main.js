@@ -11,11 +11,10 @@ window.onload = function () {
 	}
     });
 
-    // Sample code
-    var textbox = document.querySelector('.contents');
-    textbox.addEventListener("click", function(){
-    	box = document.querySelector('#textbox');
-    	box.innerHTML = box.innerHTML == "Basic" ? "Sample" : "Basic";
+    var lightbulb = document.querySelector('.contents');
+    lightbulb.addEventListener("click", function(){
+    	light = document.querySelector('#lightbulb');
+    	light.innerHTML = light.innerHTML == "<img scr='lightoff.png'>" ? "<img scr='lighton.png'>" : "<img scr='lightoff.png'>";
     });
     
 };

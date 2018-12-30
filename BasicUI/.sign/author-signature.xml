@@ -8,7 +8,7 @@
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>AgbgEgoxgzguDaXSZ07lcxi25wDwK3owU+k3JGJ2yqU=</DigestValue>
+<DigestValue>52Kc06AjFOEKZbxbYvbmEA0PGINAQyCgNk1d9Q1ojsk=</DigestValue>
 </Reference>
 <Reference URI="icon.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -16,11 +16,11 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>ueiBNwxxxo8/i5aiQnJsoiLHbyZ5Nea8kSVZVGZoTmo=</DigestValue>
+<DigestValue>CTPq+Y6NYaD8zmK/rjdiWM8xBT4dk7Zdbg/C/NNt6ow=</DigestValue>
 </Reference>
 <Reference URI="js%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>UWrGC7DwJAmmGpjgLyyg+K4MJ1XEQ8y1+V0aVrN4pYY=</DigestValue>
+<DigestValue>E3ZuEiQPXYXk4Xxs7w9uxkAo9LBvbQiEqo/M88FEGcs=</DigestValue>
 </Reference>
 <Reference URI="light.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -43,9 +43,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-WXZM8vaQlbYkyzCFonarXrlTMG5qFDjvNHADlqZSsRdBOWsG/IYUs10wEVffOjRydjaaEvwCKnhk
-fMJVjTrm9xIIvKvs6uSBXLq+I8T0e9KvvqpA3vRBJG9dYqNT8WfRKrUSo7YFPk16OhucOZicC+2d
-XA079MtRdgxCpM3t1PM=
+YIHRjFjU+YBrOLmD8/OMEvGutwkfp1eUIsskAnr9IQ+ApiHYhhQcBrFUBlfiaPUzrNTPWtaWqHxr
+QXMluu2NfmCHMknZD+wnUsve2eXTZOKrwPSLwMf2vYU7qtQxKiJNmCDpalHWUPwkgbRs8xRT7s3Q
+VK0i++LGJE9/f3WhqOU=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

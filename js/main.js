@@ -35,6 +35,7 @@ window.onload = function () {
     
 };
 
+var toggleCommand = '{ "5CCF7FA0B34D": { "action": "toggle", "color": "fff7e299" } }';
 
 function sendRequestToEpicSchool(){
     var xhttp = new XMLHttpRequest();
@@ -43,6 +44,21 @@ function sendRequestToEpicSchool(){
         document.getElementById("demo").innerHTML = this.responseText;
       }
     };
-    xhttp.open("GET", "https://api.pumpipumpe.ch/api/v1/product", true);
-    xhttp.send();
+
+    xhttp.open("POST", "http://192.168.4.186/api/v1/device/");
+    xhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+    // xhttp.send(JSON.stringify({ "email": "hello@user.com", "response": { "name": "Tester" } }));
+    let data = JSON.stringify(toggleCommand);
+    
+    console.log(toggleCommand);
+
+    xhttp.send(toggleCommand);
+
+    // xhttp.open("POST", "http://192.168.4.186/api/v1/device/", true,);
+    // xhttp.open("POST", "https://lumy.epicschool.io/api/v1/commands/newCommands?device_id=1", true,);
+    // xhttp.setRequestHeader('Authorization', 'Bearer d3232f2c5e2275e49100fd9454e0f71abb6d6b26da15d5fc66124f6eaecfbeeb6a70f6c07ce970cee8eb49ed569c21d9e23f9e36aa1b75607d90e49b1de78271');
+    console.log("set request headers");
+    // xhttp.send(toggleCommand);
+    console.log("sent toggle request");
+
 }

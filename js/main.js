@@ -45,5 +45,4 @@ function sendRequestToEpicSchool(){
     };
     xhttp.open("GET", "https://api.pumpipumpe.ch/api/v1/product", true);
     xhttp.send();
-
 }
